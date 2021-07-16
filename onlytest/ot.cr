@@ -27,7 +27,7 @@ class Greetings
     elsif utime >= 18 && utime <= 24
       "evening"
     else
-      puts "Wrong spacetime"
+      puts "(⌒_⌒;) - Wrong spacetime"
     end
   end
 
