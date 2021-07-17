@@ -40,3 +40,5 @@ end
 ob_greet = Greetings.new(name)
 
 puts ob_greet.greet
+
+# run: crystal run ./greet.cr
