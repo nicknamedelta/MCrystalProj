@@ -16,4 +16,4 @@ lyrics = user_input.presence || default_lyrics
 
 puts "Massacration are singing: #{"🎵#{lyrics.upcase}🎶🎸🥁".colorize.mode(:blink)}"
 
-# run: crystal run ./let_it_cli.cr
+# run: crystal run ./io_cli.cr
