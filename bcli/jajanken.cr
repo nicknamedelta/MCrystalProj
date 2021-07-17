@@ -1,4 +1,5 @@
 require "option_parser"
+require "colorize" # shows a string with colors
 
 jajanken = [
   "Gū",
@@ -9,7 +10,7 @@ jajan = false
 user_name = ""
 
 option_parser = OptionParser.parse do |parser|
-  parser.banner = "Welcome to The Gon CLI"
+  parser.banner = "Welcome to #{"Gon".colorize(:green).on(:black)} CLI."
 
   parser.on "-v", "--version", "Show version" do
     puts "version 1.0"
