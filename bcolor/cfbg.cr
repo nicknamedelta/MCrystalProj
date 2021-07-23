@@ -58,4 +58,4 @@ p! "1st rgb io".colorize(Colorize::ColorRGB.new(255, 135, 0))
 puts ""
 p! "1st 8-bit io".colorize(Colorize::Color256.new(208))
 
-# run: crystal run ./cba.cr
+# run: crystal run ./cfbg.cr
