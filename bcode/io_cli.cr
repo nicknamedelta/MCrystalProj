@@ -1,4 +1,4 @@
-# shows a string with colors
+# change {fore, background} colors and text decorations when rendering text on terminals
 require "colorize"
 
 puts "Welcome to Massacration Sing-Along version 2.0!"
